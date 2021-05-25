@@ -37,7 +37,9 @@
     -webkit-touch-callout: none; }
   .owl-carousel .owl-item img {
     display: block;
-    width: 100%;
+    width: auto;
+    max-height: 33rem;
+    margin: auto;
     -webkit-transform-style: preserve-3d; }
   .owl-carousel .owl-nav.disabled,
   .owl-carousel .owl-dots.disabled {
