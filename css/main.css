@@ -1204,7 +1204,7 @@ td {
   width: 44px;
   height: 44px;
   line-height: 44px;
-  background-color: #54CA95;
+  background-color: transparent;
   border-radius: 100px;
   text-align: center;
   color: #fff;
@@ -1212,6 +1212,10 @@ td {
   font-weight: 800;
   margin-right: 8px;
   margin-top: 4px;
+}
+
+svg {
+  fill: #54CA95;
 }
 
 .logo-text {
