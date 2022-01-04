@@ -5895,4 +5895,8 @@ a.post-thumbnail:hover {
     bottom: 0;
   }
 
+  .site-main {
+    margin-top: 20%;
+  }
+
 }
