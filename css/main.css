@@ -2424,8 +2424,8 @@ ul.social-links li:last-child a {
 }
 
 .portfolio-grid {
-  margin-left: -8px;
-  margin-right: -8px;
+  margin-left: 8%;
+  margin-right: -8%;
 }
 
 .portfolio-grid figure {
@@ -2433,7 +2433,7 @@ ul.social-links li:last-child a {
   float: left;
   position: relative;
   overflow: hidden;
-  margin: 8px;
+  margin-top: 8em;
   border-radius: 12px;
 }
 
@@ -2494,6 +2494,7 @@ ul.social-links li:last-child a {
   right: 0;
   left: 0;
   z-index: 3;
+  grid-gap: 50%;
 }
 
 .portfolio-item-img {
@@ -2503,8 +2504,9 @@ ul.social-links li:last-child a {
   -moz-backface-visibility: hidden;
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
-  border-radius: 8px;
-  max-height: 33em;
+  border-radius: 6px;
+  max-height: 80%;
+  max-width: 80%;
 }
 
 .portfolio-grid figure .portfolio-item-img:after {
