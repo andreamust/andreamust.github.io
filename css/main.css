@@ -5901,4 +5901,28 @@ a.post-thumbnail:hover {
     margin-top: 20%;
   }
 
+  .site-main.bib {
+    margin-top: 0;
+  }
+  .site-footer.bib {
+    bottom: -10em;
+  }
+
+  h4 {
+    max-width: 8em;
+  }
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-align: justify;
+  position: relative;
+  margin-top: 50%;
+  width: 100%;
+}
+
+.ajax-page-bib {
+  width: 50%;
+  height: 50%;
 }
